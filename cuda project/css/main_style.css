@@ -1,0 +1,67 @@
+/*Global CSS*/
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+}
+section{
+	padding: 75px 0px;
+}
+h1{
+   font-weight: bolder;
+   font-size: 40px;
+}
+h2{
+   
+}
+h3{
+
+}
+h4{
+
+}
+p{
+
+}
+/*header*/
+header{
+    background-color:#87509c; 
+}
+li.nav-item{
+	 margin: 0px 10px;
+}
+li.nav-item.active{
+    background: #0000003d;
+    border-radius: 5px;
+}
+li.nav-item:hover{
+    background: #0000003d;
+    margin: 0px 10px;
+    border-radius: 5px;
+}
+.header-content{
+	padding: 100px 0px;
+}
+.header-content button{
+	margin-top: 40px;
+	border-radius: 5px;
+    border: none;
+    background-color: #eb7d4b;
+    color: white;
+    padding: 13px 40px;
+    font-weight: 600;
+}
+.header-content button:hover{
+    box-shadow: 2px 2px 2px #c86a40;
+}
+/*Service Section*/
+.service{
+	background-color: #17c2a4;
+}
+.underline{
+	width: 75px;
+	border-bottom: 4px solid #00000052;
+	margin: 10px auto;
+}
